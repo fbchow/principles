@@ -68,7 +68,9 @@
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Intro</a></li>
 <li class="chapter" data-level="2" data-path="conceptual-overview-of-modelling.html"><a href="conceptual-overview-of-modelling.html"><i class="fa fa-check"></i><b>2</b> Conceptual overview of modelling</a></li>
-<li class="chapter" data-level="3" data-path="danger-zone.html"><a href="danger-zone.html"><i class="fa fa-check"></i><b>3</b> Danger Zone</a></li>
+<li class="chapter" data-level="3" data-path="danger-zone.html"><a href="danger-zone.html"><i class="fa fa-check"></i><b>3</b> Danger Zone</a><ul>
+<li class="chapter" data-level="3.0.1" data-path="danger-zone.html"><a href="danger-zone.html#defensive-programming-sweet-spot"><i class="fa fa-check"></i><b>3.0.1</b> Defensive Programming Sweet Spot</a></li>
+</ul></li>
 <li class="chapter" data-level="4" data-path="data-specification.html"><a href="data-specification.html"><i class="fa fa-check"></i><b>4</b> Data Specification</a></li>
 <li class="chapter" data-level="5" data-path="documentation.html"><a href="documentation.html"><i class="fa fa-check"></i><b>5</b> Documentation</a></li>
 <li class="chapter" data-level="6" data-path="functional-programming-principles.html"><a href="functional-programming-principles.html"><i class="fa fa-check"></i><b>6</b> Functional programming principles</a></li>
@@ -107,6 +109,23 @@
 <h2><span class="header-section-number">15.1</span> Prediction</h2>
 <ol style="list-style-type: decimal">
 <li>feature engineering</li>
+</ol>
+<ul>
+<li>Prepare the data for modelling
+<ul>
+<li>Transform variables to the appropriate units of analysis.<br />
+-This process may look like:<br />
+* Normalize and center variables.<br />
+* Create new variables or features of your dataset.<br />
+* Decide how to handle missing data or zeroes. Consider “filling in the blanks” with imputation.<br />
+</li>
+</ul></li>
+<li>Use resampling methods to tune hyperparmeters.
+<ul>
+<li>Compare &amp; contrast performance metrics of multiple models.</li>
+</ul></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
 <li>ML wizardry</li>
 <li>more feature engineering</li>
 <li>???</li>

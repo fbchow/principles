@@ -2,3 +2,11 @@
 
 little things to include somewhere:
   - the danger of misspecified arguments disappearing into `...`
+
+
+### Defensive Programming Sweet Spot  
+
+- What are best practices for mitigating incorrect model arguments and ordering of function arguments?  
+
+-  performing argument validation?  
+

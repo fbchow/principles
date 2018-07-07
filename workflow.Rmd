@@ -3,10 +3,22 @@
 ## Prediction
 
 1. feature engineering
+  - Prepare the data for modelling
+    - Transform variables to the appropriate units of analysis.  
+        -This process may look like:           
+             *  Normalize and center variables.  
+             *  Create new variables or features of your dataset.  
+             *  Decide how to handle missing data or zeroes. Consider "filling in the blanks" with imputation.           
+   - Use resampling methods to tune hyperparmeters.
+      - Compare & contrast performance metrics of multiple models.      
+      
+  
 2. ML wizardry
 3. more feature engineering
 4. ???
 5. predictions
+
+
 
 ## Inference
 
